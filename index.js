@@ -8,11 +8,13 @@ const s4 = "bread";
 const s5 = "and";
 
 // Concatenate the string variables into one new string
-
-
+// Result: "Fred and fed and Ted and bread"
+const tongueTwister = s1 + " " + s5 + " " + s2 + " " + s5 + " " + s3 + " " + s5 + " " + s4;
+const tongueTwister2 = `${s1} ${s4} ${s2} ${s5} ${s2} ${s5} ${s4}`;
 // Print out the concatenated string
 
-
+console.log(tongueTwister);
+console.log(tongueTwister2);
 
 
 /*******************************************
